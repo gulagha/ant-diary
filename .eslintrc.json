@@ -5,5 +5,12 @@
     "prettier",
     "airbnb-base",
     "plugin:storybook/recommended"
-  ]
+  ],
+  "rules": {
+    "import/prefer-default-export": "off",
+    "import/extensions": "off",
+    "react/no-unescaped-entities": "off",
+    "import/no-extraneous-dependencies": "off",
+    "object-curly-newline": "off"
+  }
 }
