@@ -1,3 +1,9 @@
 {
-  "extends": ["eslint:recommended", "next", "prettier", "airbnb-base"]
+  "extends": [
+    "eslint:recommended",
+    "next",
+    "prettier",
+    "airbnb-base",
+    "plugin:storybook/recommended"
+  ]
 }
